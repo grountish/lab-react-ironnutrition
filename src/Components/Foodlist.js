@@ -48,7 +48,7 @@ export default class Foodlist extends Component {
 
     sumTheTotal = (totalCalories,name, quantity) =>{
         console.log(quantity);
-        let row = `· ${quantity-1} ${name} ${totalCalories} · `
+        let row = `֍ ${quantity-1} ${name} ${totalCalories} ֍ `
         
         let listOfFoodsCopy = [...this.state.listOfFoods]
         listOfFoodsCopy.push(row)
